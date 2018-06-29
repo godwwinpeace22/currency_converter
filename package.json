@@ -1,0 +1,11 @@
+{
+  "name": "simple-currency-convert",
+  "version": "1.0.0",
+  "description": "a simple app to convert different currencies, and that works both offline and offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "godwingab",
+  "license": "ISC"
+}

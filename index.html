@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Converter App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Simple Currency Converter</h1>
+    <div>
+        <p>Select Currencies to be converted from/to</p>
+        <form action="" method="GET">
+            <span>Convert</span>
+            <input type="text" name="input" id="input" required>
+            <br>
+            <span>From</span>
+            <select name="from" id="from"  required></select>
+            <span>To:</span>
+            <select name="to" id="to" placeholder='Convert to' required></select>
+            <button>Convert</button>
+        </form>
+        <div>
+            <p id="result">Result:</p>
+
+        </div>
+    </div>
+    <script src="jquery-3.2.0.js"></script>
+    <script src="idb.js" ></script>
+    <script src="index.js" ></script>
+    <script src="app.js" ></script>
+</body>
+</html>
